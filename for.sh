@@ -1,7 +1,8 @@
 #!/bin/bash
-# Affiche les nombres de 10 à 1 à l'aide d'une boucle for
+# Affiche les nombres de 10 Ã  1 Ã  l'aide d'une boucle for
 
 for i in {10..1}
 do
-        echo $i
+        echo -n "$i ..."
 done
+echo ""
